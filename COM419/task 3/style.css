@@ -1,6 +1,7 @@
 body {
     background-color: black;
-    background-image: url("./images/banner.jpg");
+    margin: 0;
+    padding: 0;
 }
 
 #navbar ul li {
@@ -11,9 +12,18 @@ body {
 }
 
 #banner {    
+    position: relative;
+    text-align: center;
     color: white;
+    background-image: url("./images/banner.jpg");
+    height: 80vh;
+    padding: 5px;
 }
 
-h1 {
-    font-size: 70px;
+.welcome {
+    font-size: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
