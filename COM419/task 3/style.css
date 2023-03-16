@@ -2,6 +2,7 @@ body {
     background-color: black;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 #navbar ul li {
@@ -26,4 +27,33 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#title {
+    text-align: center;
+    padding: 15px;
+}
+
+#topleft {
+    display: flex;
+    justify-content: left;
+}
+
+#bottomleft {
+    display: flex;
+    justify-content: space-around;
+}
+
+#topright {
+    display: flex;
+    justify-content: space-around;
+}
+
+#bottomright {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 30%;
 }
